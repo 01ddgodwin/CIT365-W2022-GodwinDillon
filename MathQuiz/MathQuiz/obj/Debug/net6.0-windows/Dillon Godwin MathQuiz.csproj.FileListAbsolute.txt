@@ -1,0 +1,17 @@
+C:\Users\01ddg\Documents\CIT 365\MathQuiz\MathQuiz\bin\Debug\net6.0-windows\Dillon Godwin MathQuiz.exe
+C:\Users\01ddg\Documents\CIT 365\MathQuiz\MathQuiz\bin\Debug\net6.0-windows\Dillon Godwin MathQuiz.deps.json
+C:\Users\01ddg\Documents\CIT 365\MathQuiz\MathQuiz\bin\Debug\net6.0-windows\Dillon Godwin MathQuiz.runtimeconfig.json
+C:\Users\01ddg\Documents\CIT 365\MathQuiz\MathQuiz\bin\Debug\net6.0-windows\Dillon Godwin MathQuiz.dll
+C:\Users\01ddg\Documents\CIT 365\MathQuiz\MathQuiz\bin\Debug\net6.0-windows\ref\Dillon Godwin MathQuiz.dll
+C:\Users\01ddg\Documents\CIT 365\MathQuiz\MathQuiz\bin\Debug\net6.0-windows\Dillon Godwin MathQuiz.pdb
+C:\Users\01ddg\Documents\CIT 365\MathQuiz\MathQuiz\obj\Debug\net6.0-windows\Dillon Godwin MathQuiz.csproj.AssemblyReference.cache
+C:\Users\01ddg\Documents\CIT 365\MathQuiz\MathQuiz\obj\Debug\net6.0-windows\MathQuiz.Form1.resources
+C:\Users\01ddg\Documents\CIT 365\MathQuiz\MathQuiz\obj\Debug\net6.0-windows\Dillon Godwin MathQuiz.csproj.GenerateResource.cache
+C:\Users\01ddg\Documents\CIT 365\MathQuiz\MathQuiz\obj\Debug\net6.0-windows\Dillon Godwin MathQuiz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\01ddg\Documents\CIT 365\MathQuiz\MathQuiz\obj\Debug\net6.0-windows\Dillon Godwin MathQuiz.AssemblyInfoInputs.cache
+C:\Users\01ddg\Documents\CIT 365\MathQuiz\MathQuiz\obj\Debug\net6.0-windows\Dillon Godwin MathQuiz.AssemblyInfo.cs
+C:\Users\01ddg\Documents\CIT 365\MathQuiz\MathQuiz\obj\Debug\net6.0-windows\Dillon Godwin MathQuiz.csproj.CoreCompileInputs.cache
+C:\Users\01ddg\Documents\CIT 365\MathQuiz\MathQuiz\obj\Debug\net6.0-windows\Dillon Godwin MathQuiz.dll
+C:\Users\01ddg\Documents\CIT 365\MathQuiz\MathQuiz\obj\Debug\net6.0-windows\ref\Dillon Godwin MathQuiz.dll
+C:\Users\01ddg\Documents\CIT 365\MathQuiz\MathQuiz\obj\Debug\net6.0-windows\Dillon Godwin MathQuiz.pdb
+C:\Users\01ddg\Documents\CIT 365\MathQuiz\MathQuiz\obj\Debug\net6.0-windows\Dillon Godwin MathQuiz.genruntimeconfig.cache
