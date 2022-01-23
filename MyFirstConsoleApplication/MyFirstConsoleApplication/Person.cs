@@ -2,6 +2,8 @@
 
 class Person
 {
+    public static string name = "";
+    public static string location = "";
     public static void Main()
     {
         GetUserNameAndLocation();
