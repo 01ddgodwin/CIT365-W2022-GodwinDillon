@@ -124,6 +124,7 @@
             this.fullNameTextbox.Name = "fullNameTextbox";
             this.fullNameTextbox.Size = new System.Drawing.Size(253, 27);
             this.fullNameTextbox.TabIndex = 7;
+            this.fullNameTextbox.Click += new System.EventHandler(this.fullNameTextbox_Click);
             this.fullNameTextbox.TextChanged += new System.EventHandler(this.fullNameTextbox_TextChanged);
             // 
             // widthTextbox
@@ -132,6 +133,7 @@
             this.widthTextbox.Name = "widthTextbox";
             this.widthTextbox.Size = new System.Drawing.Size(253, 27);
             this.widthTextbox.TabIndex = 8;
+            this.widthTextbox.Click += new System.EventHandler(this.widthTextbox_Click);
             this.widthTextbox.TextChanged += new System.EventHandler(this.widthTextbox_TextChanged);
             // 
             // depthTextbox
@@ -152,7 +154,6 @@
             // 
             this.drawersDropdown.FormattingEnabled = true;
             this.drawersDropdown.Items.AddRange(new object[] {
-            "0",
             "1",
             "2",
             "3",
@@ -173,12 +174,6 @@
             // materialDropdown
             // 
             this.materialDropdown.FormattingEnabled = true;
-            this.materialDropdown.Items.AddRange(new object[] {
-            "Laminate       ",
-            "Oak",
-            "Rosewood      ",
-            "Veneer",
-            "Pine"});
             this.materialDropdown.Location = new System.Drawing.Point(382, 245);
             this.materialDropdown.Name = "materialDropdown";
             this.materialDropdown.Size = new System.Drawing.Size(253, 28);
@@ -245,8 +240,8 @@
         private Label numbOfDrawers;
         private Label material;
         private Label rushOptions;
-        private TextBox fullNameTextbox;
-        private TextBox widthTextbox;
+        public TextBox fullNameTextbox;
+        public TextBox widthTextbox;
         private TextBox depthTextbox;
         private ContextMenuStrip contextMenuStrip1;
         private ComboBox drawersDropdown;

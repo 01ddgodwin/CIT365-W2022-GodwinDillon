@@ -3,137 +3,44 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using MegaDesk;
 
 namespace MegaDesk
 {
     public class DeskQuote
     {
-        private string CustomerName;
-        private DateTime QuoteDate;
-        private Desk newDesk = new Desk();
-        private int RushDays;
-        private int QuoteAmount;
+        Desk newDesk = new Desk();
+        public static string FullName;
+        int RushDays;
+        public static int SurfaceArea;
+        public static int totalQuote;
 
-        private int DrawerCost;
-        private int RushCost;
-        private int MaterialCost;
-        private int SurfaceArea;
-        private int SizeCost;
-
-        private const int BASE_PRICE = 200;
-        private const int SIZE_TRESHHOLD = 1000;
-        private const int PRICE_PER_DRAWER = 50;
-
-        private int CalcMaterialCost(string material)
+        public void startCalculation()
         {
-            newDesk.Material = material;
+            //DisplayQuote newDisplayQuote = new DisplayQuote();
+            //Desk newDesk = new Desk();
+            //newDesk.FullName= AddQuote.fullNameTextbox.Text;
+            //newDisplayQuote.FullNameInputLabel.Text = newDesk.FullName.ToString();
 
-            switch (newDesk.Material)
-            {
-                case "Oak":
-                    MaterialCost = 200;
-                    break;
+            //AddQuote newQuote = new AddQuote();
+            //newDisplayQuote.WidthInputLabel.Text = newQuote.widthTextbox.Text.ToString();
 
-                case "Laminate":
-                    MaterialCost = 100;
-                    break;
+            //DisplayQuote newDisplayQuote = new DisplayQuote();
+            //Desk newDesk = new Desk();
+            //string text = Desk.FullName;
+            //newDisplayQuote.FullNameInputLabel.Text = text;
+            //Console.WriteLine(newDesk);
 
-                case "Pine":
-                    MaterialCost = 50;
-                    break;
+            //AddQuote newAddQuote = new AddQuote();
+            //FullName = newAddQuote.fullNameTextbox.Text;
+            DisplayQuote newDisplayQuote = new DisplayQuote();
+            newDisplayQuote.FullNameInputLabel.Text = FullName;
+            //newDisplayQuote.WidthInputLabel.Text = Width;
 
-                case "Rosewood":
-                    MaterialCost = 300;
-                    break;
-
-                case "Veneer":
-                    MaterialCost = 125;
-                    break;
-            }
-            return MaterialCost;
-        }
-
-        private int CalcSurfaceArea(int width, int depth)
-        {
-            newDesk.Width = width;
-            newDesk.Depth = depth;
-            SurfaceArea = newDesk.Width * newDesk.Depth;
-            return SurfaceArea;
-        }
+            Console.WriteLine(newDesk.Width);
 
 
-        private int CalcRushORderCost(int RushDays, int SurfaceArea)
-        {
-            if (SurfaceArea < 1000)
-            {
-                switch (RushDays)
-                {
-                    case 3:
-                        RushCost = 60;
-                        break;
-                    case 5:
-                        RushCost = 40;
-                        break;
-                    case 7:
-                        RushCost = 30;
-                        break;
-                }
-            }
-            else if (SurfaceArea < 2000)
-            {
-                switch (RushDays)
-                {
-                    case 3:
-                        RushCost = 70;
-                        break;
-                    case 5:
-                        RushCost = 50;
-                        break;
-                    case 7:
-                        RushCost = 35;
-                        break;
-                }
-            }
-            else if (SurfaceArea > 2000)
-            {
-                switch (RushDays)
-                {
-                    case 3:
-                        RushCost = 80;
-                        break;
-                    case 5:
-                        RushCost = 60;
-                        break;
-                    case 7:
-                        RushCost = 40;
-                        break;
-                }
-            }
-            return RushCost;
-        }
-
-        private int calSurfaceAreaCost(int SurfaceArea)
-        {
-            if (SurfaceArea <= 1000)
-            {
-                SizeCost = SIZE_TRESHHOLD;
-            }
-            else
-            {
-                SizeCost = SIZE_TRESHHOLD + (SurfaceArea - SIZE_TRESHHOLD);
-            }
-
-            return SizeCost;
-        }
-
-        public DeskQuote()
-        {
-
-            DrawerCost = newDesk.NumberOfDrawers * PRICE_PER_DRAWER;
-
-            QuoteAmount = BASE_PRICE + SizeCost + DrawerCost + MaterialCost + RushCost;
 
         }
-
-    } 
+    }
 }
