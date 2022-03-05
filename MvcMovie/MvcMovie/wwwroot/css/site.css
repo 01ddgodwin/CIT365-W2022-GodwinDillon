@@ -1,0 +1,32 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+  background-color: #3c91e6;
+}
+
+footer {
+    background-color: white;
+}
+
+.display-4 {
+    padding-top: 200px;
+}
+
+.table {
+    background-color: white;
+    border-radius: 20px;
+}
